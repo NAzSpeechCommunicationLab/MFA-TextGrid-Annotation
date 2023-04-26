@@ -1,0 +1,23 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: MFA TextGrid  Annotation Script
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Tyler T.
+    family-names: Schnoor
+    email: tschnoor@ualberta.ca
+    affiliation: University of Alberta
+repository-code: >-
+  https://github.com/NAzSpeechCommunicationLab/MFA-TextGrid-Annotation
+keywords:
+  - Montreal Forced Aligner
+  - Praat
+  - TextGrid
+license: MIT
+version: '1.0'
+date-released: '2023-04-26'
