@@ -7,6 +7,6 @@ The hope is to further document each of the individual parameters here, but they
 Scripts for processing multiple files are in development. Check back here for information on batch processing.
 
 #### Citing this repository
-Please use the built-in citation option on GitHub or see the CFF file for the relevant information.
+Please use the built-in citation option on GitHub ("Cite this repository" button in the sidebar) or see the CFF file for the relevant information.
 
 Thank you!
