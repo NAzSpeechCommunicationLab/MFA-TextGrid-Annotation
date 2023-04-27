@@ -1,3 +1,19 @@
+############################################################################################################
+# Author: Tyler Schnoor
+# Version: 1.0
+# Date: 2023-04-26
+# Repository: https://github.com/NAzSpeechCommunicationLab/MFA-TextGrid-Annotation
+#
+# Description: This repository contains a Praat script for annotating recordings with textgrids so that they 
+# 	can be aligned by the Montreal Forced Aligner (MFA). The script assumes that all sounding portions of 
+# 	the recording belong to a single important utterance. It detects the sounding portion of the recording 
+# 	automatically and adds a buffer of specified length at either end of the sounding interval. If the sounding 
+# 	portion is too close to the beginning or end of the recording (there isn't enough "room" to add the buffer), 
+# 	it will set the boundaries to the beginning and/or end instead.
+#
+# Citation: Schnoor, T. T. (2023). MFA TextGrid  Annotation Script (Version 1.0) [Computer software]. https://github.com/NAzSpeechCommunicationLab/MFA-TextGrid-Annotation
+#############################################################################################################
+
 form This script creates a textgrid and annotates the sounding portion with the given transcription.
 	text Path_to_audio_file recordings\\test_recording.wav
 	text Path_to_copied_audio_file annotated_recordings\\test_recording.wav
