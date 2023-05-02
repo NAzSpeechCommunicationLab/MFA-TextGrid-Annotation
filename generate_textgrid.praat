@@ -1,7 +1,7 @@
 ############################################################################################################
 # Author: Tyler Schnoor
-# Version: 1.0
-# Date: 2023-04-26
+# Version: 1.1
+# Last Updated: 2023-05-01
 # Repository: https://github.com/NAzSpeechCommunicationLab/MFA-TextGrid-Annotation
 #
 # Description: This repository contains a Praat script for annotating recordings with textgrids so that they 
@@ -21,17 +21,25 @@ form This script creates a textgrid and annotates the sounding portion with the 
 	text Transcription This is a test recording
 	text Speaker_name tts
 	positive Time_buffer 0.150
-	comment The following parameters are used to detect the sounding portion of the recording.
-	positive Minimum_pitch 100
-	real Time_step 0.0
-	real Silence_threshold -25
-	positive Minimum_silent_interval 0.1
-	positive Minimum_sounding_interval 0.1
-	comment Check this box to save the intermediate textgrid with automatically detected sounding intervals (for debugging)
-	boolean Save_silences_textgrid 0
-	comment Check this box if you want to copy the audio file to the specified path
-	boolean Copy_audio 1
+	# comment The following parameters are used to detect the sounding portion of the recording.
+	# positive Minimum_pitch 100
+	# real Time_step 0.0
+	# real Silence_threshold -25
+	# positive Minimum_silent_interval 0.1
+	# positive Minimum_sounding_interval 0.1
+	# comment Check this box to save the intermediate textgrid with automatically detected sounding intervals (for debugging)
+	# boolean Save_silences_textgrid 0
+	# comment Check this box if you want to copy the audio file to the specified path
+	# boolean Copy_audio 1
 endform
+
+minimum_pitch = 100
+time_step = 0.0
+silence_threshold = -25
+minimum_silent_interval = 0.1
+minimum_sounding_interval = 0.1
+save_silences_textgrid = 0
+copy_audio = 1
 
 Read from file: path_to_audio_file$
 soundObject$ = selected$: "Sound"
