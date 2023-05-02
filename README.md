@@ -18,7 +18,7 @@ Thank you!
 These scripts are tested on Windows 11. Although I have not tested these scripts using other operating systems, it is likely that they will not work perfectly on any non-Windows OS. That being said, it should require relatively little modification in order to make them work.
 
 #### Installing Python
-Python can be installed by following the instructions [here] (https://wiki.python.org/moin/BeginnersGuide/Download).
+Python can be installed by following the instructions [here](https://wiki.python.org/moin/BeginnersGuide/Download).
 
 #### Installing Pandas
 Pandas is a Python package that is used in process_batch.py to find words in the CSV file. It can be installed easily using pip, a package manager that is automatically installed alongside Python. You can install Pandas using the following command:
@@ -27,7 +27,7 @@ pip install pandas
 ```
 
 #### Installing Praat
-Praat can be installed by following the instructions [here] (https://www.fon.hum.uva.nl/praat/download_win.html).
+Praat can be installed by following the instructions [here](https://www.fon.hum.uva.nl/praat/download_win.html).
 
 ### Running the scripts
 A batch of files can be processed by running the Python script called process_batch.py in command line as follows:
